@@ -129,3 +129,29 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   font-size: 16px;
   line-height: 21.6px;
 }
+
+.content-section_subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+  margin-bottom: 32px;
+}
+
+.content-section_introduction {
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0 0 32px;
+}
+.content-section_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 16px;
+}
+
+.content-section_list-accent {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.6px;
+}
