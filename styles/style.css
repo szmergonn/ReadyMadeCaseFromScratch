@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .cover {
   padding: 7px 24px 32px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  background-position: right center;
 }
 
 .intro {
@@ -72,4 +76,24 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   color: #f5f5f5;
   font-size: 16px;
   line-height: 19.2px;
+}
+
+.cover_title {
+  width: 100%;
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1;
+}
+.accent-span {
+  display: block;
+
+}
+.text-center {
+  text-align: center;
+
+}
+.text-right {
+  text-align: right;
 }
